@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rio Azul Apartments | Tucson, AZ</title>
+  <meta name="description" content="Rio Azul Apartments offers brand-new, single-story one-bedroom apartments in Tucson, AZ with utilities included and modern amenities." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    .hero-overlay {
+      background: linear-gradient(120deg, rgba(2, 6, 23, 0.72), rgba(15, 23, 42, 0.58));
+    }
+
+    .glass-card {
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <header class="fixed top-0 z-30 w-full border-b border-white/20 bg-white/90 shadow-sm backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+      <a href="#home" class="flex items-center gap-3 text-lg font-semibold tracking-tight text-slate-900"><img src="https://photos.zillowstatic.com/fp/7f7eccfa24b290dedb1a02223f4bd22b-uncropped_scaled_within_1536_1152.webp" alt="Rio Azul logo" class="h-9 w-9 object-contain" /> <span>Rio Azul Apartments</span></a>
+      <nav class="hidden items-center gap-6 text-sm font-medium text-slate-700 md:flex">
+        <a href="#about" class="transition hover:text-sky-700">About</a>
+        <a href="#gallery" class="transition hover:text-sky-700">Gallery</a>
+        <a href="#amenities" class="transition hover:text-sky-700">Amenities</a>
+        <a href="#location" class="transition hover:text-sky-700">Location</a>
+        <a href="#contact" class="rounded-full bg-sky-700 px-4 py-2 text-white transition hover:bg-sky-800">Contact</a>
+      </nav>
+      <a href="tel:+15202164077" class="md:hidden rounded-full bg-sky-700 px-3 py-1.5 text-xs font-semibold text-white">Call Now</a>
+    </div>
+  </header>
+
+  <main id="home" class="pt-16">
+    <section class="relative min-h-[80vh] overflow-hidden">
+      <img
+        src="https://photos.zillowstatic.com/fp/a64d3648f913a006a82ca343c342105a-uncropped_scaled_within_1536_1152.webp"
+        alt="Exterior view of modern apartment homes"
+        class="absolute inset-0 h-full w-full object-cover"
+      />
+      <div class="hero-overlay absolute inset-0"></div>
+      <div class="relative mx-auto flex min-h-[80vh] max-w-7xl items-center px-4 py-24 sm:px-6 lg:px-8">
+        <div class="max-w-3xl text-white">
+          <p class="mb-4 inline-flex items-center rounded-full border border-white/30 bg-white/10 px-4 py-1 text-sm font-medium glass-card">Now Leasing in Tucson, AZ</p>
+          <h1 class="text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">Rio Azul Apartments</h1>
+          <p class="mt-5 text-xl font-medium text-slate-100 sm:text-2xl">Brand-new, single-story one-bedroom apartments. Leasing now!</p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="tel:+15202164077" class="rounded-full bg-sky-600 px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-sky-700">Call 520-216-4077</a>
+            <a href="#contact" class="rounded-full border border-white/60 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10">Schedule a Tour</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="grid gap-10 lg:grid-cols-[1.1fr_1fr] lg:items-center">
+        <div>
+          <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">About the Property</h2>
+          <p class="mt-5 text-base leading-7 text-slate-600">
+            At 742 sq. ft., these apartments feel even bigger thanks to tall ceilings and an open kitchen/living area with plenty of storage.
+            Units are going fast, call today to come see it!
+          </p>
+          <ul class="mt-6 space-y-3 text-slate-700">
+            <li class="flex gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-sky-600"></span>All utilities INCLUDED (electric, water, trash) — save big every month</li>
+            <li class="flex gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-sky-600"></span>Everything brand new &amp; modern, with fresh finishes throughout</li>
+            <li class="flex gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-sky-600"></span>Full in-unit laundry + luxurious walk-in shower</li>
+            <li class="flex gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-sky-600"></span>Large private fenced yard/patio</li>
+            <li class="flex gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-sky-600"></span>Plenty of parking right in front of your unit</li>
+            <li class="flex gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-sky-600"></span>Community security cameras for extra peace of mind</li>
+            <li class="flex gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-sky-600"></span>Solar-powered for lower bills and eco-friendly living</li>
+          </ul>
+        </div>
+        <div class="overflow-hidden rounded-2xl shadow-xl">
+  <img 
+    src="https://photos.zillowstatic.com/fp/b9e6c18d57391c345701b930027b04aa-uncropped_scaled_within_1536_1152.webp"
+    alt="New modern apartment"
+    class="h-full w-full object-cover"
+  />
+</div>
+      </div>
+    </section>
+
+    <section id="gallery" class="bg-white py-16">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="mb-8 flex items-end justify-between gap-4">
+      <div>
+        <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Photo Gallery</h2>
+        <p class="mt-2 text-slate-600">Explore the lifestyle at Rio Azul Apartments.</p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+      <img class="h-40 w-full rounded-xl object-cover sm:h-52"
+        src="https://photos.zillowstatic.com/fp/b8fc4baf58785d00e2683aaa78a05012-uncropped_scaled_within_1536_1152.webp"
+        alt="Kitchen" />
+
+      <img class="h-40 w-full rounded-xl object-cover sm:h-52"
+        src="https://photos.zillowstatic.com/fp/813550fbab87f6b986aa187cacf151df-uncropped_scaled_within_1536_1152.webp"
+        alt="Private fenced patio" />
+
+      <img class="h-40 w-full rounded-xl object-cover sm:h-52"
+        src="https://photos.zillowstatic.com/fp/1dda4e3a515a6c1db003cd8005863e54-uncropped_scaled_within_1536_1152.webp"
+        alt="Open living area with high ceilings" />
+
+      <img class="h-40 w-full rounded-xl object-cover sm:h-52"
+        src="https://photos.zillowstatic.com/fp/8d8f73845ee238e77e325e153361f25b-uncropped_scaled_within_1536_1152.webp"
+        alt="Building exterior and walkways" />
+
+      <img class="h-40 w-full rounded-xl object-cover sm:h-52"
+        src="https://photos.zillowstatic.com/fp/23155b2d863170616e3b9806bc12d30e-uncropped_scaled_within_1536_1152.webp"
+        alt="Walk-in shower and bathroom" />
+
+      <img class="h-40 w-full rounded-xl object-cover sm:h-52"
+        src="https://photos.zillowstatic.com/fp/6499a455fde39eee0dce8565bb47f688-uncropped_scaled_within_1536_1152.webp"
+        alt="Spacious bedroom and closet" />
+
+      <div class="flex h-40 flex-col items-center justify-center rounded-xl bg-slate-900 p-4 text-center text-white sm:h-52">
+        <p class="mt-3 text-sm font-semibold tracking-[0.2em]">RIO AZUL</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="amenities" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Amenities</h2>
+      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">✅ 742 sq. ft. one-bedroom floor plan</div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">✅ Single-story layout with tall ceilings</div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">✅ Open-concept kitchen and living area</div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">✅ In-unit washer and dryer</div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">✅ Luxurious walk-in shower</div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">✅ Large fenced private yard/patio</div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">✅ Utilities included: electric, water, trash</div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">✅ Front-door parking convenience</div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">✅ Security cameras and solar-powered community</div>
+      </div>
+    </section>
+
+    <section id="location" class="bg-white py-16">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Location</h2>
+        <p class="mt-3 text-slate-600">Conveniently located near shopping, dining, and commuter routes in Tucson.</p>
+        <div class="mt-6 overflow-hidden rounded-2xl border border-slate-200 shadow-md">
+          <iframe
+            title="Map of Rio Azul Apartments"
+            src="https://www.google.com/maps?q=839+E+Minorka+Rd,+Tucson,+AZ+85706&output=embed"
+            class="h-80 w-full border-0 sm:h-[420px]"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-16">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="rounded-3xl bg-slate-900 px-6 py-10 text-white sm:px-10">
+          <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Contact Leasing</h2>
+          <p class="mt-3 max-w-2xl text-slate-300">Ready to tour your new home? Reach out today—units are leasing quickly.</p>
+          <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div>
+              <h3 class="text-sm font-semibold uppercase tracking-wide text-slate-300">Leasing Office</h3>
+              <p class="mt-2 text-lg">5418 S Park Ave<br />Tucson, AZ 85706</p>
+            </div>
+            <div>
+              <h3 class="text-sm font-semibold uppercase tracking-wide text-slate-300">Phone</h3>
+              <a href="tel:+15202164077" class="mt-2 inline-block text-lg font-semibold text-sky-300 hover:text-sky-200">520-216-4077</a>
+            </div>
+            <div>
+              <h3 class="text-sm font-semibold uppercase tracking-wide text-slate-300">Email</h3>
+              <a href="mailto:contact@rioazulpartners.com" class="mt-2 inline-block break-all text-lg font-semibold text-sky-300 hover:text-sky-200">contact@rioazulpartners.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 bg-white py-6">
+    <div class="mx-auto max-w-7xl px-4 text-sm text-slate-500 sm:px-6 lg:px-8">
+      © <span id="year"></span> Rio Azul Apartments. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
